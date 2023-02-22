@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Newspaper survey</title>
+  </head>
+  <body>
+    <header><h1>Newspaper survey</h1></header>
+    <main>
+      <form>
+        <section>
+          <label for="name">Name: </label
+          ><input
+            placeholder="Firstname Lastname"
+            type="text"
+            name="user_name"
+            id="name"
+          />
+        </section>
+        <section>
+          <label for="email">Email: </label
+          ><input
+            placeholder="something@gmail.com"
+            type="email"
+            name="user_email"
+            id="email"
+          />
+        </section>
+        <section>
+          <label for="age">Age: </label
+          ><input type="number" name="user_age" id="age" />
+        </section>
+        <section>
+          <label for="dropdown">Gender</label>
+          <select name="user_gender" id="dropdown">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+        </section>
+        <section>
+          <label for="feedback">Feedback </label
+          ><textarea
+            name="user_feedback"
+            id="feedback"
+            cols="20"
+            rows="10"
+          ></textarea>
+        </section>
+        <section>
+          <label for="more_surveys"
+            >Would you like to receive more surveys like this?</label
+          ><input type="checkbox" name="user_more_surveys" id="more_surveys" />
+        </section>
+        <section>
+          <fieldset>
+            <legend>Would you like to receive more emails?</legend>
+            <section>
+              <label for="emails_yes">Yes </label>
+              <input
+                id="emails_yes"
+                type="radio"
+                name="receive_emails"
+                value="yes"
+              />
+            </section>
+            <section>
+              <label for="emails_no">No </label>
+              <input
+                id="emails_no"
+                type="radio"
+                name="receive_emails"
+                value="no"
+              />
+            </section>
+          </fieldset>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+form {
+  width: 20vw;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  margin: 1rem 0;
+}
